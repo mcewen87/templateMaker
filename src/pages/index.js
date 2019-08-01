@@ -28,7 +28,8 @@ class IndexPage extends Component {
     for (var j = 0; j < this.state.data[0].length; j++) {
       let template = this.state.template
       for (var k = 0; k < this.state.keys.length; k++) {
-        template = template.replace(this.state.keys[k], this.state.data[k][j])
+        var re = new RegExp(this.state.keys[k], "g")
+        template = template.replace(re, this.state.data[k][j])
       }
       list.push(
         <div>
