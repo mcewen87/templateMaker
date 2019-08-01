@@ -31,6 +31,11 @@ p {
   margin: 7px;
 }
 
+.small {
+  font-size: 0.8rem;
+  color: #eb5e28;
+}
+
 .special {
   white-space: pre;
 }

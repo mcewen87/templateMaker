@@ -105,8 +105,9 @@ class IndexPage extends Component {
           <p className="short">3. Click the generate button.</p>
           <p className="short">
             4. Copy and Paste the output somewhere safe, like a simple notepad
-            or your favorite text editor. 💯
+            or your favorite text editor.
           </p>
+          <p class="small">Made by Jon 🍕🍕🍕🍕</p>
           <div className="row">
             <button onClick={this.addData} className="add">
               Add Data Set
